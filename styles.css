@@ -27,6 +27,7 @@ body {
 /* =========================================== */
 
 .header-container {
+    border-bottom: 1em solid var(--green2);
     background-color: var(--blue5);
     color: var(--blue2);
     width: 100%;
