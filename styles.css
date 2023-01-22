@@ -3,7 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* GLOBAL VARIABLES */
 :root {
-    
+    --blue1: #deedee;
+    --blue2: #acd1d4;
+    --blue3: #7ab5ba;
+    --blue4: #4f9398;
+    --blue5: #356266;
+    --green1: #cfedca;
+    --green2: #d9f5c4;
+    --green3: #b9ebd2;
+    --green4: #bad9b8;
+    --green5: #a3c9b1;
 }
