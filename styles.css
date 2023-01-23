@@ -140,7 +140,6 @@ a:hover {
     background-repeat: none;
     background-size: cover;
     background-position: center;
-    height: 100vh;
     padding-top: 15em;
     position: relative;
     z-index: -5;
@@ -167,8 +166,8 @@ a:hover {
 .section-1-text-1 {
     border-top: .2em solid var(--green1);
     border-left: .2em solid var(--green1);
-    width: 25%;
-    height: 40%;
+    width: 4em;
+    height: 4em;
     z-index: -1;
     top: -1em;
     left: -1em;
