@@ -37,6 +37,7 @@ header {
     background-color: var(--blue5);
     color: var(--blue2);
     width: 100%;
+    height: 20vh;
 }
 
 .header-list-items {
@@ -143,6 +144,7 @@ a:hover {
     padding-top: 15em;
     position: relative;
     z-index: -5;
+    height: 100vh;
 }
 
 
@@ -158,6 +160,7 @@ a:hover {
 }
 .section-1-text {
     color: var(--blue1);
+    width: 60vw;
     letter-spacing: var(--mainLettterSpacing);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     position: relative;
