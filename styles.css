@@ -59,7 +59,6 @@ ul {
 }
 
 a {
-    color: var(--blue1);
     text-decoration: none;
     color: var(--blue2);
 }
@@ -198,6 +197,7 @@ a:hover {
     margin-left: 1em;
     color: var(--green4);
 }
+
 .tech-skills-container{
     /* border: 1px solid blue; */
     width: 40vw;
@@ -267,6 +267,7 @@ a:hover {
     margin-left: .6em;
     color: var(--green4);
 }
+
 
 @media screen and (min-width: 300px) {
    .section-1 {
