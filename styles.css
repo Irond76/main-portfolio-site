@@ -194,7 +194,7 @@ a:hover {
     
 }
 .html-text {
-    margin-left: 1em;
+    margin-left: .8em;
     color: var(--green4);
 }
 
@@ -311,3 +311,92 @@ a:hover {
     margin-top: 2em
    }
 }
+/* ================================================================================== */
+
+.section-2 {
+    width: 100%;
+    background: linear-gradient(rgba(163,201,177,0.9), rgba(163,201,177,0.9)),url('./images/pexels-pixabay-257904.jpg');
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    padding-top: 1em;
+    position: relative;
+    z-index: -5;
+    /* height: 130vh; */
+}
+.section-2-title {
+    margin-top: 5em;
+    color: var(--blue5);
+    position: relative;
+    z-index: -5;
+}
+.blue-border {
+    border-top: .2em solid var(--blue5);
+    border-left: .2em solid var(--blue5);
+}
+.titles-2 {
+    color: var(--blue4);
+}
+.TEXT {
+    color: var(--blue5);
+}
+
+/* =================================================================== */
+.tech-section {
+    width: 100%;
+    background: linear-gradient(rgba(79,147,152,0.9), rgba(79,147,152,0.9)),url('./images/pexels-kevin-ku-577585.jpg');
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    padding-top: 5em;
+    position: absolute;
+}
+
+.links {
+    color: var(--green1);
+}
+
+
+@media screen and (min-width: 300px) {
+    .section-2 {
+     font-size: .4em;
+    }
+    .header-container{
+     height: 12vh;
+    }
+    .tech-skills-container, ul{
+     display: inline;
+    }
+    .section-1-text {
+     margin-top: 10em
+    }
+ }
+ @media screen and (min-width: 800px) {
+    .section-2 {
+     font-size: .5em;
+    }
+    .header-container{
+     height: 10vh;
+    }
+    .tech-skills-container, ul{
+     display: inline;
+    }
+    .section-1-text {
+     margin-top: 10em
+    }
+ }
+ @media screen and (min-width: 1080px) {
+    .section-2 {
+     font-size: 1em;
+    }
+    .header-container{
+     height: 20vh;
+    }
+    .tech-skills-container, ul{
+     display: inline;
+    }
+    .section-1-text {
+     margin-top: 2em
+    }
+ }
+ 
